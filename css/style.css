@@ -276,8 +276,8 @@ body ::selection {
 
     .card {
         margin: 2rem auto;
-        height: 10rem;
-        width: 26rem;
+        height: 30vh;
+        width: 70vw;
         border: #515154 solid 4px;
         background-color: #303034;
         outline: #6d6d6d solid 1px;
