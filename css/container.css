@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Rajdhani:wght@300&display=swap');
+
+@media (max-width:720px) {
+    .container {
+        padding: 8.5rem 3.4rem;
+    }
+    
+    .container .heading h1{
+        font-size: 35px;
+        display: grid;
+        
+    }
+    .container h1 span{
+        color: #c4c4c4;  
+        font-size: 14px;
+    }
+    
+    p{
+        padding-top: 2rem;
+        font-family: 'Rajdhani', sans-serif;
+        color: white;
+        font-size: 18px;
+        text-align: justify;
+        line-height: 1.5;
+        top: 10px;
+        font-style: normal;
+    }
+}
