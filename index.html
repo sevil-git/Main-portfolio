@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <script src="js/app.js"></script>
 </head>
 <body>
 <!-- <body style="cursor: url(img/icons8-cursor-24.png), auto;">  -->
@@ -15,45 +14,44 @@
     <nav>
         <ul class="nav-links">
             <li>
-                <a href="index.html">
+                <a class="butns" href="index.html">
                     <i class='bx bx-home-alt'></i>
                 </a>
                 <h2 class="nav-item">Home</h2>
             </li>
             <li>
-                <a href="about.html">
+                <a class="butns" href="about.html">
                     <i class='bx bx-user'></i>
                 </a>
                 <h2 class="nav-item">About</h2>
             </li>
             <li>
-                <a href="now.html" >
+                <a class="butns" href="now.html" >
                     <i class='bx bx-time-five'></i> 
                 </a>
                 <h2 class="nav-item">Now</h2>
             </li>
             <li>
-                <a href="#dashboard" >
+                <a class="butns" href="#dashboard" >
                     <i class='bx bx-book-content'></i>
                 </a>
                 <h2 class="nav-item">Dashboard</h2>
             </li>
             <li>
-                <a href="#spotify">
+                <a class="butns" href="#spotify">
                     <i class='bx bx-headphone' ></i>
                 </a>
                 <h2 class="nav-item">Spotify</h2>
             </li>
             <li>
-                <a href="#contact" id="home">
+                <a class="butns" href="#contact" id="home">
                     <i class='bx bx-link'></i>
                 </a>
                 <h2 class="nav-item">Contact</h2>
             </li>
-            <!-- <li>
-                <button onclick="darkMode()">Darkmode</button>
-                <button onclick="lightMode()">LightMode</button>
-            </li> -->
+            <li>
+                <img src="img/sun.png" alt="" srcset="" class="butns drk-btn" id="darkmode">
+            </li>
         </ul>
         <div class="verticalLine"></div>
     </nav>
@@ -76,12 +74,12 @@
                 <div class="card">
                     <h2 class="card-heading">Cuberto Clone</h2>
                     <p class="extract">Cuberto is a leading digital product agency focused on branding, UI/UX design, mobile, and web development. [front-end] only.</p>
-                    <a><i class='bx bx-link link'></i></a>
+                    <a href=""><i class='bx bx-link link'></i></a>
                 </div>
                 <div class="card">
                     <h2 class="card-heading">Portfolio</h2>
                     <p class="extract">personal site made using Html, Css & Javascript stack.</p>
-                    <a><i class='bx bx-link link'></i></a>
+                    <a href="index.html"><i class='bx bx-link link'></i></a>
                 </div>
                 <div class="card">
                     <h2 class="card-heading">Farmingo</h2>
@@ -90,7 +88,10 @@
                 </div>
             </div>
         </div>
+        
+
     </section>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

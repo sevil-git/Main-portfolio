@@ -1,12 +1,13 @@
-function darkMode() {
-  let element = document.body;
-  let content = document.getElementById("DarkModetext");
-  element.className = "dark-mode";
-  content.innerText = "Dark Mode is ON";
-}
-function lightMode() {
-  let element = document.body;
-  let content = document.getElementById("DarkModetext");
-  element.className = "light-mode";
-  content.innerText = "Dark Mode is OFF";
+var darkmode = document.getElementById("darkmode");
+var dark1 = document.getElementById("dark1");
+
+darkmode.onclick = function(){
+  document.body.classList.toggle("dark-theme");
+  if(document.body.classList.contains("dark-theme")){
+    darkmode.src = "img/moon.png";
+  }else{
+    darkmode.src = "img/sun.png";
+  }
+
+  
 }
